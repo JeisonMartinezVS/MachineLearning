@@ -13,3 +13,5 @@ datos.describe() # Muestra las estadisticas descriptivas de todas las columnas q
 longitud = datos['longitude'].describe()
 promedio = datos['longitude'].mean()
 print(promedio)
+
+#_____________________________________________________
