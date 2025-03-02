@@ -114,3 +114,11 @@ print(df1.columns)
 
 # dfp = sns.load_dataset('penguins')
 # print(dfp)
+
+tf = df["total_vaccinations"] > 2155000
+
+n_df = df.where(tf).copy()
+n_df.dropna() #Volvemos a obtener el data frame generado con la mascara y filtrado como un array
+
+
+df.location.unique()
